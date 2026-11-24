@@ -1,0 +1,44 @@
+<!doctype html>
+<!-- Prewalk embeds: a tour, a project and a portfolio on one page · https://prewalk.co · github.com/prewalkco/virtual-tour-embed-examples
+     Reference: prewalk/README.md. Last verified: 24 November 2026. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prewalk embeds: tour, project and portfolio</title>
+<style>
+  body { margin: 0; font-family: system-ui, sans-serif; }
+  main { max-width: 960px; margin: 0 auto; padding: 24px 16px; }
+
+  /* Optional: a responsive shape for the tour instead of the fixed height in the code. */
+  .tour { aspect-ratio: 16 / 9; }
+  @media (max-width: 600px) { .tour { aspect-ratio: 4 / 5; } }
+  .tour iframe { display: block; height: 100%; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Apartment 3B</h1>
+
+  <!-- 1. A tour. Replace TOUR_ID: Studio → the tour → Share → Embed on your website → Copy code.
+       Options: ?theme=light|dark · ?credits=0 · ?twofinger=1 · ?accent=0a7cff (Pro and above). -->
+  <div class="tour">
+    <iframe src="https://prewalk.co/embed/TOUR_ID" title="Apartment 3B: 360° virtual tour" width="100%" height="560" style="border:0;width:100%;max-width:100%" loading="lazy" allow="autoplay; fullscreen; gyroscope; accelerometer; xr-spatial-tracking"></iframe>
+  </div>
+
+  <h2>The whole building</h2>
+  <!-- 2. A project. Public: /embed/@HANDLE/projects/PROJECT_SLUG. Link-only or password-protected: /embed/p/PROJECT_ID.
+       The height is the minimum: embed.js grows the frame to fit the project. -->
+  <iframe src="https://prewalk.co/embed/@HANDLE/projects/PROJECT_SLUG" title="Harbour View: 360° tours" width="100%" height="560" style="border:0;width:100%;max-width:100%" loading="lazy" allow="autoplay; fullscreen; gyroscope; accelerometer; xr-spatial-tracking"></iframe>
+
+  <h2>More of our work</h2>
+  <!-- 3. Your portfolio: Settings → Branding → Embed your portfolio.
+       Options: ?layout=carousel · ?header=0 · ?limit=6 · ?type=tours|projects · ?category=real-estate · ?tag=… · ?project=SLUG -->
+  <iframe src="https://prewalk.co/embed/@HANDLE?layout=carousel&amp;header=0" title="Our 360° tours" width="100%" height="640" style="border:0;width:100%;max-width:100%" loading="lazy" allow="autoplay; fullscreen; gyroscope; accelerometer; xr-spatial-tracking"></iframe>
+</main>
+
+<!-- One script for every Prewalk embed on the page: content height, full-screen layer for portfolio cards, allowed-sites note.
+     No cookies, no storage. Site builders that strip scripts: leave it out and the iframes keep their heights. -->
+<script src="https://prewalk.co/embed.js" async></script>
+</body>
+</html>

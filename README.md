@@ -12,6 +12,7 @@ Written and maintained by **[Prewalk](https://prewalk.co)**, 360° virtual tour 
 | [`examples/click-to-load.html`](examples/click-to-load.html) | Poster image that loads the tour only when clicked (fast pages, good Core Web Vitals) |
 | [`examples/Tour360.jsx`](examples/Tour360.jsx) | Small React component with the same behaviour |
 | [`examples/csp.md`](examples/csp.md) | Content Security Policy for sites that embed tours |
+| [`prewalk/`](prewalk/README.md) | Prewalk reference: tour, project and portfolio embed codes, URL options, allowed sites, passwords, what each plan shows, privacy |
 
 ## The minimum that works
 
@@ -63,10 +64,11 @@ Why each attribute is there:
 
 ## Prewalk notes
 
+- Full reference: [`prewalk/`](prewalk/README.md) (embed addresses, options, allowed sites, passwords, plans, privacy; last verified 24 November 2026).
 - In the Prewalk studio, open a tour's **Share** tab and click **Copy code** under **Embed on your website**.
-- The **recommended** code is an iframe plus a small script from prewalk.co: the embed resizes to its content and opens full screen on your site. The **fixed-height** code is the iframe alone, for builders that strip scripts.
+- The **recommended** code is an iframe plus a small script from prewalk.co: portfolio and project embeds grow to fit their content, and portfolio items open full screen on your site. The **fixed-height** code is the iframe alone, for builders that strip scripts.
 - Embed options include theme (match visitor, light or dark), credits, two-finger navigation on phones and, on Pro and above, an accent color.
-- Tour owners can turn embedding off, and on paid plans allow only specific domains.
+- Owners can turn embedding off (their embeds then show a "not available" card) and, on Pro and above, allow only specific sites.
 - Step-by-step guide: [Embed a tour on your website](https://prewalk.co/blog/embed-on-your-website). Developer write-up: [iframe vs script, sizing and the gotchas](https://dev.to/prewalk/embedding-a-360-virtual-tour-on-any-website-iframe-vs-script-sizing-and-the-gotchas-436a).
 
 ## About

@@ -26,4 +26,4 @@ Merge these with your existing directives rather than replacing them; a second `
 
 ## The other direction
 
-The tour host can also refuse to be framed (with `frame-ancestors` or an allow-list of domains). In Prewalk, tour owners can turn embedding off, and on paid plans allow only specific domains; if your site is not on that list, the iframe stays blank.
+The tour host can also refuse to be framed (with `frame-ancestors` or an allow-list of domains). In Prewalk, owners can allow only specific sites (Pro and above): on any other site the recommended code shows a one-line "This content can't be shown on this site." in place of the iframe, and the iframe-only code gets the browser's own "refused to connect" page. Owners can also turn embedding off; their embeds then show a "not available" card. Details: [`../prewalk/README.md`](../prewalk/README.md#where-an-embed-can-open).
