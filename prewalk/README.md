@@ -2,7 +2,7 @@
 
 A reference for the embed codes [Prewalk](https://prewalk.co) gives you. It covers the three embeds and their addresses, the code and `embed.js`, the URL options and sizing, full screen and VR, who can open an embed and where, what each plan shows, and privacy.
 
-**Last verified: 24 November 2026.** For the step-by-step walkthrough with screenshots, see [Embed a tour on your website](https://prewalk.co/blog/embed-on-your-website). Plans are on the [pricing page](https://prewalk.co/pricing); more answers are in the [FAQ](https://prewalk.co/faq).
+**Last verified: 25 November 2026**, against prewalk.co. For the step-by-step walkthrough with screenshots, see [Embed a tour on your website](https://prewalk.co/blog/embed-on-your-website). Plans are on the [pricing page](https://prewalk.co/pricing); more answers are in the [FAQ](https://prewalk.co/faq).
 
 Copy-paste page: [`embeds.html`](embeds.html).
 

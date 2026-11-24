@@ -64,7 +64,7 @@ Why each attribute is there:
 
 ## Prewalk notes
 
-- Full reference: [`prewalk/`](prewalk/README.md) (embed addresses, options, allowed sites, passwords, plans, privacy; last verified 24 November 2026).
+- Full reference: [`prewalk/`](prewalk/README.md) (embed addresses, options, allowed sites, passwords, plans, privacy; last verified 25 November 2026).
 - In the Prewalk studio, open a tour's **Share** tab and click **Copy code** under **Embed on your website**.
 - The **recommended** code is an iframe plus a small script from prewalk.co: portfolio and project embeds grow to fit their content, and portfolio items open full screen on your site. The **fixed-height** code is the iframe alone, for builders that strip scripts.
 - Embed options include theme (match visitor, light or dark), credits, two-finger navigation on phones and, on Pro and above, an accent color.
